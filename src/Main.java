@@ -12,7 +12,7 @@ public class Main {
 
         for(String[] pair : booksAndAuthors){
             String bookTitle = pair[0];
-            String authorFullName = pair[0];
+            String authorFullName = pair[1];
             String formattedString = formatBookAuthor(bookTitle, authorFullName);
             System.out.println(formattedString);
         }
